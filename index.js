@@ -6,7 +6,9 @@ const app = express();
 
 
 
+// add express.router to the app. This route is relative to this position
 
+app.use("/",require("./routes/index"));
 
 app.listen(port, function(err){
     if(err){
