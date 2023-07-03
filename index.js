@@ -8,6 +8,10 @@ const app = express();
 app.set("view engine","ejs");
 app.set("views","./views");
 
+// set up statics
+
+app.use(express.static("statics"));
+
 
 
 

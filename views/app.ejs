@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= title%></title>
+    <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-    <h1>App started</h1>
+    <div id="container">
+        <h1 id="heading">
+            <%= title%>
+        </h1>
+    </div>
+    <div id="task-input">
+        <form action="/create-task" method="post">
+            <div id="description-box">
+    
+            </div>
+        </form>
+    </div>
 </body>
 </html>

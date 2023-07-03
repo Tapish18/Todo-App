@@ -1,0 +1,31 @@
+body{
+    margin : 0;
+    background-color: grey;
+    font-family: sans-serif;
+    /* position: relative;
+    top: 0;
+    left: 0; */
+    height: 100vh ;
+    /*width: 100vw; */
+}
+
+#container{
+    position: relative;
+    top: 15%;
+    left: 30%;
+    min-height: 50vh;
+    max-height: 75vh;
+    width: 40vw;
+    border: 2px solid black;
+    background-color: white;
+}
+
+#heading{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    color: grey;
+    font-size: 2.5rem;
+    border-bottom: 2px solid lightgrey;
+    padding-bottom: 5px;
+}
