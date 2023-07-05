@@ -3,6 +3,8 @@ const port  = 8000;
 
 const app = express();
 
+const db = require("./config/mongoose")
+
 // set up views and view engine for the app;
 
 app.set("view engine","ejs");
@@ -11,7 +13,7 @@ app.set("views","./views");
 // set up statics
 
 app.use(express.static("statics"));
-
+app.use(express.urlencoded({extended : true}))
 
 
 
